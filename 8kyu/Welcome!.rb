@@ -50,7 +50,7 @@ GREETINGS = {
 }
 
 def greet(language)
-    GREETINGS.fetch(language.to_s,  GREETINGS[:english])
+    GREETINGS.fetch(language.to_sym, GREETINGS[:english])
 end
 
 # note: the fetch method is used to retrieve a value from a hash
