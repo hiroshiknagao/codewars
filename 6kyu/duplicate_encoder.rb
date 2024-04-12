@@ -11,3 +11,9 @@
 def duplicate_encode(word)
   word.downcase.chars.map { |char| word.downcase.count(char) == 1 ? "(" : ")" }.join
 end
+# - needs to downcase case insensitive
+# - .chars separates words and make string into an array
+# - word.downcase.count(char) is counting how many times the word has been repeated.
+# - if a word is repeated once return "(" else ")"
+# - convert the array to a string by join method
+

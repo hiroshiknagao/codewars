@@ -8,3 +8,6 @@
 def sum_two_smallest_numbers(numbers)
   numbers.sort.take(2).sum
 end
+
+# take method returns specified numbers of elements
+# from the begining of the array. 
