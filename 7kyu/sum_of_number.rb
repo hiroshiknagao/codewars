@@ -14,3 +14,5 @@
 def get_sum(a,b)
   (a..b).inject(:+) || (b..a).inject(:+)
 end
+
+# inject method i.e. [3, 6, 10, 13].inject(:+) => (((3 + 6) + 10) + 13) => 32
