@@ -7,8 +7,7 @@
 # 4 --> 0 (because 4 is already a one-digit number)
 # My solution
 
-
- def persistence(n)
+def persistence(n)
   return 0 if n < 10
   num_takes = 0
   while n > 9 do
