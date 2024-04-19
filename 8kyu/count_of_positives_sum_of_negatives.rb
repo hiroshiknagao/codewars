@@ -8,6 +8,6 @@
 # For input [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15], you should return [10, -65].
 # My Solution
 def count_positives_sum_negatives(lst)
-  return [] if lst == nil || lst.empty?
- [ lst.select(&:positive?).count, lst.select(&:negative?).sum]
+  return [] if lst.empty? || lst.nil?
+  [lst.select{ |num| num.positive? }.count, lst.select{ |num| num.negative? }.sum]
 end

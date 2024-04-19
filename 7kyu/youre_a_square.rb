@@ -17,6 +17,9 @@
 #  4  =>  true
 # 25  =>  true
 # 26  =>  false
+
+# My Solution
+
 def is_square(x)
   return false if x < 0
   Math.sqrt(x) % 1 == 0 ? true: false
