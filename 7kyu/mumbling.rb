@@ -10,3 +10,6 @@
 def accum(s)
 	s.chars.each_with_index.map { |char, index| char.upcase + char.downcase* index}.join("-")
 end
+
+# char.upcase + char.downcase => "Zz", "Pp"
+# char.downcase * index does "Ppppp" if index is 2
