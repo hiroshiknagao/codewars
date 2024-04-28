@@ -17,8 +17,6 @@ def persistence(n)
   num_takes
 end
 
-
-
 # 1. if numer is small than 10 returns 0
 # 2. if n is larger than 9 loop
 # 3. convert number to string and to array to split numbers by .split ot .charts

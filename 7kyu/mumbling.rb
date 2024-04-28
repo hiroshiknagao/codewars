@@ -12,4 +12,4 @@ def accum(s)
 end
 
 # char.upcase + char.downcase => "Zz", "Pp"
-# char.downcase * index does "Ppppp" if index is 2
+# char.downcase * index does "Ppp" if index is 2

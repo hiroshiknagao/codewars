@@ -16,4 +16,3 @@ end
 # - word.downcase.count(char) is counting how many times the word has been repeated.
 # - if a word is repeated once return "(" else ")"
 # - convert the array to a string by join method
-

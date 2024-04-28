@@ -11,4 +11,4 @@
 # My Solution
 def number lines
   lines.map.with_index {|item, index| "#{index + 1}: #{item}" }
- end
+end

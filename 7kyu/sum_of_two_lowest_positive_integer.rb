@@ -10,4 +10,4 @@ def sum_two_smallest_numbers(numbers)
 end
 
 # take method returns specified numbers of elements
-# from the begining of the array. 
+# from the begining of the array.
