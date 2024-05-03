@@ -6,5 +6,5 @@
 # None of the arrays will be empty, so you don't have to worry about that!
 # My solution
 def remove_every_othre(arr)
-  arr.select_with_index { |element, index| index.even? }
+  arr.select.with_index { |element, index| index.even? }
 end
