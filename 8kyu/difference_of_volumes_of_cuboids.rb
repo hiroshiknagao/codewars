@@ -7,5 +7,5 @@
 # If you can, try writing it in one line of code.
 # My Solution
 def find_difference(a, b)
-  ( a.inject(:*)) - (b.inject(:*))
+ (a.inject(:*) - b.inject(:*)).abs
  end
