@@ -3,6 +3,5 @@
 # String will never be empty and you do not need to account for different data types.
 # My Solution
 def find_short(s)
-  shortest_word = s.split.min { |a, b| a.size <=> b.size }
-  shortest_word.length
+  s.split.map { |word| word.length}.min
 end
